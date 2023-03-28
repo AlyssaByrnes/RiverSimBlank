@@ -41,6 +41,9 @@ class River:
     
     def repopulate_bears(self):
         return None
+    
+    def view_river(self):
+        return None
             
     def one_river_day(self):
         self.day += 1
@@ -53,9 +56,5 @@ class River:
         self.check_ages()
         self.repopulate_fish()
         self.repopulate_bears()
+        self.view_river()
             
-    def one_week(self):
-        return None
-    
-    def view_river(self):
-        return None
